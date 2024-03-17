@@ -5,7 +5,7 @@
   font-size: larger;
 }
 
-body{
+.homebody{
   background-image: url('images/Al-Mamlakah.jpg');
   background-size: 100%;
   background-repeat: no-repeat;
@@ -17,15 +17,6 @@ body{
   margin-top: 50px; 
   padding: 200px 150px;
   text-align: center;
-  color: #ffffff
+  color: #ffffff;
 }
 
-.name{
-  margin: 50px 150px;
-  margin-bottom: 100px;
-  padding: 50px;
-  border: gray 100px;
-  border-radius: 5px;
-  background-color: rgba(34, 117, 165, 0.683);
-
-}
