@@ -1,53 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Visit</title>
+    <title>Index</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <link rel="stylesheet" href="main.css">
     
     <link rel="stylesheet" 
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script 
-      src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script 
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script 
       src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
   
   </head>
 <body>
-
-
+<header>
+<!-- https://getbootstrap.com/docs/5.3/examples/sticky-footer-navbar/?# -->
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="home.html">My Hometown</a>
+    <div class="container-fluid" style="">
+      <a class="great-vibes-regular navbar-brand" href="home.html">Visit Riyadh</a>
       <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="navbar-collapse collapse" id="navbarCollapse" style="">
+      <div class="navbar-collapse collapse" id="navbarCollapse">
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="index.html">Index</a>
+            <a class="nav-link active" aria-current="page" href="index.html">Index</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="history.html">History</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">Visit</a>
+            <a class="nav-link" href="#">Visit</a>
           </li>
-          <!--
-          <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-          </li>
-          -->
         </ul>
       </div>
     </div>
   </nav>
+</header>
+
+<main>
+
+<div class="row flex-lg-row-reverse align-items-center g-5 py-5" style="margin-top: 65px;">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="images/cityscape.jpg" width="500" loading="lazy">
+      </div>
+      <div class="col-lg-6" style="padding: 20px">
+        <h1 class="display-5 lh-1 mb-3">Where to Visit??</h1>
+        <p class="lead">The country's capital: a modern metropolis with a thriving financial and business 
+          center and a growing cultural scene. It's a city rich in history, boasting myriad forts, palaces 
+          and museums, and some of the country's most colorful souqs.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+        </div>
+      </div>
+    </div>
 
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+
+  <div class="px-4 py-5 my-5 text-center">
+    <img class="d-block mx-auto mb-4" src="images/download.jpeg" alt="" width="72">
+    <h1 class="display-5 fw-bold text-body-emphasis">Riyadh Season</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">Riyadh Season is one of the most widely anticipated events of the year. It occurs annually during winter and consists of tons of events and activities.</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        <button type="button" class="btn btn-primary btn-lg px-4 gap-3" href="https://www.bing.com/ck/a?!&&p=53e4769d84b616c4JmltdHM9MTcxMDYzMzYwMCZpZ3VpZD0zZmI1MTE1Ny02OWY0LTY3OTctMjFmOS0wMmM3Njg3ZjY2YzYmaW5zaWQ9NTIxNg&ptn=3&ver=2&hsh=3&fclid=3fb51157-69f4-6797-21f9-02c7687f66c6&psq=riyadh+season&u=a1aHR0cHM6Ly9yaXlhZGhzZWFzb24uY29tL2VuLVVT&ntb=1">To the official Site</button>
+      </div>
+    </div>
+  </div>
+
+
+</main>
+
+<footer class="footer mt-auto py-2 fixed-bottom bg-dark">
+  <div class="container" style="color: gray;">
+    <h6>University of Aberdeen CS1534 CA3</h6>
+  </div>
+</footer>
+
+<script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 </body>
 </html>
